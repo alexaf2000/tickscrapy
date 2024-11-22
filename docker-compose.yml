@@ -1,0 +1,6 @@
+services:
+  scrapper:
+    build: ./.docker
+    volumes:
+      - ./:/app
+    env_file: ".env"
